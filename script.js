@@ -16,6 +16,11 @@ var partofthebodyArray = ['teeth', 'head', 'shoulders', 'knees', 'toes', 'eyes',
 var random;
 
 var elements = document.getElementsByClassName('noun');
+var elements1 = document.getElementsByClassName('adjective');
+var elements2 = document.getElementsByClassName('verb');
+var elements3 = document.getElementsByClassName('adverb');
+var elements4 = document.getElementsByClassName('pluralnoun');
+var elements5 = document.getElementsByClassName('partofthebody');
 //node list of html elements
 
 
@@ -23,6 +28,12 @@ var elements = document.getElementsByClassName('noun');
 for(var i = 0; i < elements.length; i++){
   random = Math.floor(Math.random() * 10) //assigns a random number each time the for loop runs
   elements[i].textContent = nounArray[random] //assigns the text content of the respective element to a random index in the words array
+  elements1[i].textContent = adjectiveArray[random]
+  elements2[i].textContent = verbArray[random]
+  elements3[i].textContent = adverbArray[random]
+  elements4[i].textContent = pluralnounArray[random]
+  elements5[i].textContent = partofthebodyArray[random]
+
 }
 
 //for (var i = 0; i <nounArrayItems.length; i++){
