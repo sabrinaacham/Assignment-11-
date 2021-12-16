@@ -4,7 +4,13 @@
 //Part 1: Create arrays of 10 words each for the six classes outlined. Use a DOM query to return a list of elements based on the class names provided.
 //For each of the NodeLists returned, loop through the list and replace the text content with the matching type from the arrays you created
 
-var nounArray = [];
+var nounArray = ['appearance','studio','desk','expression','resource','depression','explanation','payment','distribution','language'];
+var adjectiveArray = ['woebegone','cute','nostalgic','fertile','jolly','wholesale','rebel','fluffy','secretive','panicky'];
+var verbArray = ['function','announce','suppress','assume','guarantee','dump','change','intend','participate','govern'];
+var adverbArray = ['faithfully','rudely','longingly','originally','fully','unbearably','ahead','mechanically','strictly','easily','altogether','more'];
+var pluralnounArray = ['diamonds','powers','performances','workers','dinners','albinos','armadillos','bingos','burritos','cameos'];
+var partofthebodyArray = ['teeth', 'head', 'shoulders', 'knees', 'toes', 'eyes', 'nose', 'ears', 'mouth', 'belly button'];
+
 
 //array of words
 var random;
@@ -16,11 +22,11 @@ var elements = document.getElementsByClassName('noun');
 //elements.length used as a counter to loop through array as long as the elements in the array.
 for(var i = 0; i < elements.length; i++){
   random = Math.floor(Math.random() * 10) //assigns a random number each time the for loop runs
-  elements[i].textContent = walletArray[random] //assigns the text content of the respective element to a random index in the words array
+  elements[i].textContent = nounArray[random] //assigns the text content of the respective element to a random index in the words array
 }
 
-//for (var i = 0; i <walletItems.length; i++){
-//  walletItems[i].className = "wallet"
+//for (var i = 0; i <nounArrayItems.length; i++){
+//  walletItems[i].className = "noun"
 //}
 
   //var el = document.querySelector('li.crypto');
