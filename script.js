@@ -19,8 +19,8 @@ var elements = document.getElementsByClassName('noun');
 var elements1 = document.getElementsByClassName('adjective');
 var elements2 = document.getElementsByClassName('verb');
 var elements3 = document.getElementsByClassName('adverb');
-var elements4 = document.getElementsByClassName('pluralnoun');
-var elements5 = document.getElementsByClassName('partofthebody');
+var elements4 = document.getElementsByClassName('plural-noun');
+var elements5 = document.getElementsByClassName('body-part');
 //node list of html elements
 
 
