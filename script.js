@@ -4,7 +4,7 @@
 //Part 1: Create arrays of 10 words each for the six classes outlined. Use a DOM query to return a list of elements based on the class names provided.
 //For each of the NodeLists returned, loop through the list and replace the text content with the matching type from the arrays you created
 
-var nounArray = ['appearance','studio','desk','expression','resource','depression','explanation','payment','distribution','language'];
+var nounArray = ['appearance','studio','desk','expression','piggybank','depression','explanation','payment','distribution','language'];
 var adjectiveArray = ['woebegone','cute','nostalgic','fertile','jolly','wholesale','rebel','fluffy','secretive','panicky'];
 var verbArray = ['function','announce','suppress','assume','guarantee','dump','change','intend','participate','govern'];
 var adverbArray = ['faithfully','rudely','longingly','originally','fully','unbearably','ahead','mechanically','strictly','easily','altogether','more'];
@@ -65,3 +65,9 @@ for(var i = 0; i < elements3.length; i++){
 
 //var els = document.querySelectorAll('li.wallet');
 //els[1] className = 'crypto';
+
+
+//Part 2: Write a function which allows the substitution of words based on a random selection from an array.
+// The function should be called 'getWord' and its parameter should be 'type'.
+// Based on the type passed (that matches one of the six word classes), a random word should be returned from the appropriate array of words.
+// Use this function to update the NodeLists looped through in Part 1
