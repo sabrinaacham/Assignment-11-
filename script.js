@@ -28,30 +28,10 @@ var elements5 = document.getElementsByClassName('body-part');
 for(var i = 0; i < elements.length; i++){
   random = Math.floor(Math.random() * 10); //assigns a random number each time the for loop runs
   elements[i].textContent = nounArray[random];//assigns the text content of the respective element to a random index in the words array
-}
-
-  for(var i = 0; i < elements1.length; i++){
-    random = Math.floor(Math.random() * 10);
   elements1[i].textContent = adjectiveArray[random];
-}
-
-for(var i = 0; i < elements2.length; i++){
-  random = Math.floor(Math.random() * 10);
   elements2[i].textContent = verbArray[random];
-}
-
-for(var i = 0; i < elements3.length; i++){
-  random = Math.floor(Math.random() * 10);
   elements3[i].textContent = adverbArray[random];
-}
-
-  for(var i = 0; i < elements4.length; i++){
-    random = Math.floor(Math.random() * 10);
   elements4[i].textContent = pluralnounArray[random];
-}
-
-  for(var i = 0; i < elements5.length; i++){
-    random = Math.floor(Math.random() * 10);
   elements5[i].textContent = partofthebodyArray[random];
 
 }
