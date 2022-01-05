@@ -71,3 +71,17 @@ for(var i = 0; i < elements3.length; i++){
 // The function should be called 'getWord' and its parameter should be 'type'.
 // Based on the type passed (that matches one of the six word classes), a random word should be returned from the appropriate array of words.
 // Use this function to update the NodeLists looped through in Part 1
+var nounArray = ['appearance','studio','desk','expression','piggybank','depression','explanation','payment','distribution','language'];
+
+int[] nounArr = new int[10];
+
+nounArr[0] = appearance;
+nounArr[1] = studio;
+nounArr[2] = desk;
+nounArr[3] = expression;
+nounArr[4] = piggybank;
+nounArr[5] = depression;
+nounArr[6] = explanation;
+nounArr[7] = payment;
+nounArr[8] = distribution;
+nounArr[9] = language;
