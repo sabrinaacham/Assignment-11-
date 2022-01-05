@@ -71,17 +71,73 @@ for(var i = 0; i < elements3.length; i++){
 // The function should be called 'getWord' and its parameter should be 'type'.
 // Based on the type passed (that matches one of the six word classes), a random word should be returned from the appropriate array of words.
 // Use this function to update the NodeLists looped through in Part 1
-var nounArray = ['appearance','studio','desk','expression','piggybank','depression','explanation','payment','distribution','language'];
 
-int[] nounArr = new int[10];
+//nt[] nounArr = new int[10];
 
-nounArr[0] = appearance;
-nounArr[1] = studio;
-nounArr[2] = desk;
-nounArr[3] = expression;
-nounArr[4] = piggybank;
-nounArr[5] = depression;
-nounArr[6] = explanation;
-nounArr[7] = payment;
-nounArr[8] = distribution;
-nounArr[9] = language;
+//nounArr[0] = appearance;
+//nounArr[1] = studio;
+//nounArr[2] = desk;
+//nounArr[3] = expression;
+//nounArr[4] = piggybank;
+//nounArr[5] = depression;
+//nounArr[6] = explanation;
+//nounArr[7] = payment;
+//nounArr[8] = distribution;
+//nounArr[9] = language;
+
+ //for(int i=0; i<nounArr.length; i++){
+
+   //System.out.printIn(arr[i]);
+
+ //}
+
+function getNoun(getNoun);
+var noun;
+
+switch (getNoun){
+  case 0:
+  noun = 'appearance';
+  break;
+
+  case 1:
+  noun = 'studio';
+  break;
+
+  case 2:
+  noun = 'desk';
+  break;
+
+  case 3:
+  noun = 'expression';
+  break;
+
+  case 4:
+  noun = 'piggybank';
+  break;
+
+  case 5:
+  noun = 'depression';
+  break;
+
+  case 6:
+  noun = 'explantaion';
+  break;
+
+  case 7:
+  noun = 'payment';
+  break;
+
+  case 8:
+  noun = 'distribution'
+  break;
+
+  case 9:
+  noun = 'language'
+  break;
+  default:
+  noun = 'shiver me timber'
+}
+
+return noun;
+
+document.write(getNoun());
