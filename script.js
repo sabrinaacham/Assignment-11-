@@ -141,3 +141,169 @@ switch (getNoun){
 return noun;
 
 document.write(getNoun());
+
+
+function getAdj(getAdj);
+var adjective;
+
+case 0:
+adjective = 'woebegone'
+break;
+case 1:
+adjective = 'cute'
+break;
+case 2:
+adhective = 'nostaligc'
+break;
+case 3:
+adjective = 'fertile'
+break;
+case 4:
+adjective = 'jolly'
+break;
+case 5:
+adjective = 'wholesale'
+break;
+case 6:
+adjective = 'rebel'
+break;
+case 7:
+adjective = 'fluffy'
+break;
+case 8:
+adjective = 'secretive'
+break;
+case 9:
+adjective = 'panicky'
+break;
+default:
+adjective = 'shiver me timber'
+}
+
+return adjective;
+
+document.write(getAdj());
+
+
+function getVerb(getVerb);
+var verb;
+
+case 0:
+verb = 'function'
+break;
+case 1:
+verb = 'announce'
+break;
+case 2:
+verb = 'suppress'
+break;
+case 3:
+verb = 'assume'
+break;
+case 4:
+verb = 'guarantee'
+break;
+case 5:
+verb = 'dump'
+break;
+case 6:
+verb = 'change'
+break;
+case 7:
+verb = 'intend'
+break;
+case 8:
+verb = 'participate'
+break;
+case 9:
+verb = 'govern'
+break;
+default:
+verb = 'shiver me timber'
+}
+return verb;
+
+document.write(getVerb());
+
+
+
+function getAdverb(getAdverb);
+var adverb;
+
+case 0:
+adverb = 'faithfully'
+break;
+case 1:
+adverb = 'rudely'
+break;
+case 2:
+adverb = 'longingly'
+break;
+case 3:
+adverb = 'unbearably'
+break;
+case 4:
+adverb = 'ahead'
+break;
+case 5:
+adverb = 'mechanically'
+break;
+case 6:
+adverb = 'strictly'
+break;
+case 7:
+adverb = 'easily'
+break;
+case 8:
+adverb = 'altogether'
+break;
+case 9:
+adverb = 'more'
+break;
+default:
+adverb = 'shiver me timber'
+}
+return adverb;
+
+document.write(getAdverb());
+
+
+function getPluralNoun(getPluralNoun);
+var plural;
+
+case 0:
+adverb = 'diamonds'
+break;
+case 1:
+adverb = 'powers'
+break;
+case 2:
+adverb = 'performances'
+break;
+case 3:
+adverb = 'workers'
+break;
+case 4:
+adverb = 'dinners'
+break;
+case 5:
+adverb = 'albinos'
+break;
+case 6:
+adverb = 'armadillos'
+break;
+case 7:
+adverb = 'bingos'
+break;
+case 8:
+adverb = 'burritos'
+break;
+case 9:
+adverb = 'cameos'
+break;
+default:
+adverb = 'shiver me timber'
+}
+return plural;
+
+document.write(getPluralNoun());
