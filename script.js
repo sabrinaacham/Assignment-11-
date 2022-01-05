@@ -272,38 +272,80 @@ function getPluralNoun(getPluralNoun);
 var plural;
 
 case 0:
-adverb = 'diamonds'
+plural = 'diamonds'
 break;
 case 1:
-adverb = 'powers'
+plural = 'powers'
 break;
 case 2:
-adverb = 'performances'
+plural = 'performances'
 break;
 case 3:
-adverb = 'workers'
+plural = 'workers'
 break;
 case 4:
-adverb = 'dinners'
+plural = 'dinners'
 break;
 case 5:
-adverb = 'albinos'
+plural = 'albinos'
 break;
 case 6:
-adverb = 'armadillos'
+plural = 'armadillos'
 break;
 case 7:
-adverb = 'bingos'
+plural = 'bingos'
 break;
 case 8:
-adverb = 'burritos'
+plural = 'burritos'
 break;
 case 9:
-adverb = 'cameos'
+plural = 'cameos'
 break;
 default:
-adverb = 'shiver me timber'
+plural = 'shiver me timber'
 }
 return plural;
 
 document.write(getPluralNoun());
+
+//var partofthebodyArray = ['teeth', 'head', 'shoulders', 'knees', 'toes', 'eyes', 'nose', 'ears', 'mouth', 'belly button'];
+
+function getBodyPart(getBodyPart);
+var part;
+
+case 0:
+part = 'teeth'
+break;
+case 1:
+part = 'head'
+break;
+case 2:
+part = 'shoulders'
+break;
+case 3:
+part = 'knees'
+break;
+case 4:
+part = 'toes'
+break;
+case 5:
+part = 'eyes'
+break;
+case 6:
+part = 'nose'
+break;
+case 7:
+part = 'ears'
+break;
+case 8:
+part = 'mouth'
+break;
+case 9:
+part = 'belly button'
+break;
+default:
+part = 'shiver me timber'
+}
+return part;
+
+document.write(getBodyPart());
